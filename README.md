@@ -1,2 +1,2 @@
 # NOMAD
-Natively Open Modular Architecture Device
+A laptop designed to be customisable, portable, and open source
