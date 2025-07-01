@@ -31,4 +31,4 @@ ports: usb A, usb C, hdmi, microsd
 
 Also i spent the last 30 minutes working on this concept art lol
 I like when people make concept art to visualize somthing so thought id do it too
-[image](concept_art/V1_art.png)
+(https://hc-cdn.hel1.your-objectstorage.com/s/v3/5dcaa516637028705314b054f8e08150483699e8_v1_art.png)
