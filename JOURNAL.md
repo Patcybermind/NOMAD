@@ -31,4 +31,4 @@ ports: usb A, usb C, hdmi, microsd
 
 Also i spent the last 30 minutes working on this concept art lol
 I like when people make concept art to visualize somthing so thought id do it too
-[](concept_art\V1 art.png)
+[](concept_art/V1 art.png)
