@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 20
+total hours: 24
 
 ## june 29th:
 So ive already done a lot of research but today i finally made the repo and im ready to start working on it. Ive done about 20 hours of research so far. Basicly this idea had started a while ago when i learnt about single board computers and was looking to buy better options and cheaper options that just a normal raspberry pi because they are pretty expensive and could be better. This was around the time where i wanted to get more into open source digital fpv and also into 3d printing and well for both of those you need well you dont need but its recomended that you have a sbc like a pi or and for open source fpv the alternative is a bit more expensive. So i read stuff, read articles etc. Saw that most sbc manufactuers also make compute modules or SOMs (System On Module)
@@ -33,3 +33,11 @@ Also i spent the last 30 minutes working on this concept art lol
 I like when people make concept art to visualize somthing so thought id do it too
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5dcaa516637028705314b054f8e08150483699e8_v1_art.png)
+
+## july 30th:
+4 hours
+I did some more research im looking at what batteries im going to use. At the start i wanted to use 18650 cells but they are 1.8cm thick which is far too much. i want the laptop to be under 1.6cm thick total so instead i think im going to go for some 7mm lithium ion pouch cells probably 3 of them in series or maybe 4. After that i also dissasembled an old 2013 thinkpad to see if it has an embedded display port display and i think it does
+so I think its a pretty good option to use as a cheap display for the laptop. It could be better but im not very picky when it comes to screens as all my displays are average or under average. Other than my phone.
+![image](https://github.com/user-attachments/assets/90a63b04-9371-4ebc-9fe4-40b8f9769fe8)
+something like this
+
