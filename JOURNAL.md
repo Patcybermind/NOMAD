@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 28
+total hours: 38
 
 ## june 29th:
 4 hours
@@ -44,3 +44,12 @@ so I think its a pretty good option to use as a cheap display for the laptop. It
 ![image](https://github.com/user-attachments/assets/90a63b04-9371-4ebc-9fe4-40b8f9769fe8)
 something like this
 
+## july 7th:
+10h
+back from camping
+I started placing stuff in the schematic but im still figuring out what to connect ot waht pins because beleive it or not there are 260 pins in the conector. I'm prob not even going to use half of those but i still need to understand what they do. Lattepanda actually has decent documentation about this and they have a discord that ive joined and also i read this blog? where this guy was making his ownn carrier board and i followed what he did for finding your trace settings and setting up the drc so you have the right impedance but unfortunuately the guy never finished it so it didnt go far. Theres also this guy on youtube who made a carrier but he didnt go super in depth. Ive been going through the example carrier board that is provided in their github but im trying to make sense out of it because they use different pages and ive never used different pages also idk why they have these blocks rn so yeah i still need to do some mroe googling and chatgpting. 
+![image](https://github.com/user-attachments/assets/249658f2-4973-4325-af33-5cadeed54dd0)
+
+I also exported the example board to jlcpcb with the settings i plan on using for the final board and this is the price but keep in mind this doesnt include pcba which ill be using.
+Its about what i estimated earlier so with pcba it should be around 90usd ideally less.
+S![image](https://github.com/user-attachments/assets/70a10e22-4185-4d1d-bbbd-e83c047bf576)
