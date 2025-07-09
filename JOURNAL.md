@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 38
+total hours: 45
 
 ## june 29th:
 4 hours
@@ -53,3 +53,15 @@ I started placing stuff in the schematic but im still figuring out what to conne
 I also exported the example board to jlcpcb with the settings i plan on using for the final board and this is the price but keep in mind this doesnt include pcba which ill be using.
 Its about what i estimated earlier so with pcba it should be around 90usd ideally less.
 S![image](https://github.com/user-attachments/assets/70a10e22-4185-4d1d-bbbd-e83c047bf576)
+
+july 8th:
+7 hours
+
+Today i finished the schematic part of the main pcb. I say main pcb because there will be a second pcb that controls rtl-sdr usb connection sends custom touchpad hid info to the lattepanda mu and keyboard keystrokes and handles the batteries. Disclaimer i did base myself off of the lite carrier board example. The mainboard has 4usb connections 2 usb3 A ports 1 usbc 2.0 port and one internal (broken out to pins) usb 2.0 The purpose of this is to let me make a second pcb (because i want to keep this mainboard pcb under 10cmx10cm to keep the cost down as much as i can)  that aside from doing all of what i said earilier will also act as a usb hub to add 2-3 more usb ports 2 of them staying inside the laptop one going to the rtl-sdr inside the laptop and the other one going to human interface devices i.e. the touchpad and keyboard The reason i have to use a usb hub is because the n100 intel usb controller only allows for 4 "root" usb connections. This pcb will use an rp2040 in hid mode.
+
+![image](https://github.com/user-attachments/assets/3a8c4d2a-f6e0-4241-97a5-c9cb22bccad8)
+Have not been placed yet but they are now inside the pcb editor ready to be placed.
+
+![image](https://github.com/user-attachments/assets/29a8f1e8-9572-4859-b0a4-66394c966af9)
+usb schematic sheet
+
