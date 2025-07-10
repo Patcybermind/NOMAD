@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 38
+total hours: 52
 
 ## june 29th:
 4 hours
@@ -53,3 +53,28 @@ I started placing stuff in the schematic but im still figuring out what to conne
 I also exported the example board to jlcpcb with the settings i plan on using for the final board and this is the price but keep in mind this doesnt include pcba which ill be using.
 Its about what i estimated earlier so with pcba it should be around 90usd ideally less.
 S![image](https://github.com/user-attachments/assets/70a10e22-4185-4d1d-bbbd-e83c047bf576)
+
+## july 8th:
+7 hours
+
+Today i finished the schematic part of the main pcb. I say main pcb because there will be a second pcb that controls rtl-sdr usb connection sends custom touchpad hid info to the lattepanda mu and keyboard keystrokes and handles the batteries. Disclaimer i did base myself off of the lite carrier board example. The mainboard has 4usb connections 2 usb3 A ports 1 usbc 2.0 port and one internal (broken out to pins) usb 2.0 The purpose of this is to let me make a second pcb (because i want to keep this mainboard pcb under 10cmx10cm to keep the cost down as much as i can)  that aside from doing all of what i said earilier will also act as a usb hub to add 2-3 more usb ports 2 of them staying inside the laptop one going to the rtl-sdr inside the laptop and the other one going to human interface devices i.e. the touchpad and keyboard The reason i have to use a usb hub is because the n100 intel usb controller only allows for 4 "root" usb connections. This pcb will use an rp2040 in hid mode.
+
+![image](https://github.com/user-attachments/assets/3a8c4d2a-f6e0-4241-97a5-c9cb22bccad8)
+Have not been placed yet but they are now inside the pcb editor ready to be placed.
+
+
+
+
+![image](https://github.com/user-attachments/assets/29a8f1e8-9572-4859-b0a4-66394c966af9)
+usb schematic sheet
+
+## july 9th:
+7 hours:
+
+Today I basically placed most components where they should go and whats left is mostly just waiting to be placed on the board but already togheter i.e. boost converters are togheter but not on the board. I also had to edit the schematic a little bit because i realisd some things were missing or had to bbe modified like the power button, it needs to be a connector and not a button. Also i messed up and put everything on the wrong side and had to restart though lucky i was only like 2 hours in at the time so it wasnt that bad. basically the problem was that i forgot this was going to go upside down and i want the usb ports to be on the right of the laptop and the lattepanda mu and its ddr slot need to face the display so i can connect the embedded display port fpc cable dirrectly to the mu. So yeah i basically did it flipped the first time. The reason it has to go upside down is that while the chassis will most likely be 3d printed as of right now. I say most likely because I am considering making it entirely out of aluminum maybe press formed. But say it does end up being 3d printed, the bottom will have a solidaluminum sheet as flush and seamless as possible with the rest of the chassis. This will act as a huge heatsink and heatspreader which if anodized should be able to dissipate around 70 watts and if not it should still be able to dissipate around 40 watts which will definitely be enough. You might be concerned though that the heat will stay in one spot and so am I so between the aluminum and the mu i will also add an intermidiary smaller sheet of copper just to get the heat more spread and less concentrated. Aditionally the 70w and 40 w figures i gave earlier are assuming a 30x30cm piece of aluminum under 60c, if the temp goes over 60c then itl disspate even more heat but i dont want it getting too hot because a laptop who can give you burns is a bad laptop. And you might be wondering what the difference between anodized aluminum and normal aluminum is when it comes to getting rid of heat? As it turns out anodised black aluminum radiates heat in infrared emmisions over 20 times more than normal aluminum. 0.0x vs 0.8x-9x emmisivity. So its basically like one of those radiators they use in space. Pretty cool math.
+
+![image](https://github.com/user-attachments/assets/002a936a-11ac-4210-a4ea-bc44ce83f45a)
+As you can see most things are aglomerated or on the board already. I'm going to route the high speed traces before i place mostof the other components too since thats the most important thing to get right.
+
+
+
