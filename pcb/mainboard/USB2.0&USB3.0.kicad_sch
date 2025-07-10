@@ -11,7 +11,7 @@
 		(company "DFRobot")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -27,8 +27,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -88,7 +88,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x04_Pin_1_1"
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -114,6 +114,17 @@
 				(rectangle
 					(start 0.8636 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -149,6 +160,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -205,6 +228,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3312,16 +3353,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 105.41) (xy 328.93 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe131b6-3782-4bc4-a9ab-d9600b589dfd")
-	)
-	(wire
-		(pts
 			(xy 344.17 95.25) (xy 355.6 95.25)
 		)
 		(stroke
@@ -3782,6 +3813,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 134.62) (xy 345.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa86b53a-1da9-493f-a1a8-c3b10e0d2f4d")
+	)
+	(wire
+		(pts
 			(xy 245.11 194.31) (xy 313.69 194.31)
 		)
 		(stroke
@@ -3869,6 +3910,16 @@
 			(type default)
 		)
 		(uuid "c2fc7649-b8d6-49c7-a67d-225e505852a2")
+	)
+	(wire
+		(pts
+			(xy 328.93 105.41) (xy 328.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42ee29a-19f0-4ee7-a0f0-88af963c972d")
 	)
 	(wire
 		(pts
@@ -7398,80 +7449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 350.52 139.7 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8ed688a-45b4-422d-a08c-90ab16b065e7")
-		(property "Reference" "J82"
-			(at 351.79 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 351.79 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 350.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 350.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 350.52 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d932a996-c6e6-42bc-be58-effc0e73ac02")
-		)
-		(pin "2"
-			(uuid "99d721aa-e3a5-4a03-8361-8788bb62db35")
-		)
-		(pin "3"
-			(uuid "82b761f1-9008-4e6e-a551-d91da887cdd6")
-		)
-		(instances
-			(project ""
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
-					(reference "J82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power_Protection:D3V3XA4B10LP")
 		(at 248.92 231.14 0)
 		(unit 1)
@@ -8002,6 +7979,83 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
 					(reference "F5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 350.52 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6b4ca84-a15a-4378-a13a-5add32788368")
+		(property "Reference" "J82"
+			(at 351.79 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 351.79 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a19038b8-3571-46a2-af40-73c2dae22d76")
+		)
+		(pin "2"
+			(uuid "cee95cd9-b446-4404-8114-d69668c58322")
+		)
+		(pin "4"
+			(uuid "1182de7f-cbb7-4e1b-b16f-2994157a0137")
+		)
+		(pin "3"
+			(uuid "646401df-2966-4549-ba5b-4ad9ba9a9f0f")
+		)
+		(instances
+			(project ""
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
+					(reference "J82")
 					(unit 1)
 				)
 			)

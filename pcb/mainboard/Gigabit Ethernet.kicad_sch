@@ -8494,7 +8494,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "7ca1a72c-f4d7-43fa-bc76-325ef0e17646")
 		(property "Reference" "U7"
@@ -8893,7 +8893,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "8b1285a3-8d91-4c8a-8e36-12e1e5911910")
 		(property "Reference" "U8"

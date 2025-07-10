@@ -5448,6 +5448,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 308.61) (xy 378.46 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006892d4-e75f-42a9-bea7-4fcadb74789a")
+	)
+	(wire
+		(pts
 			(xy 459.74 186.69) (xy 454.66 186.69)
 		)
 		(stroke
@@ -6262,6 +6272,16 @@
 			(type default)
 		)
 		(uuid "45a663de-9175-4078-9be0-53cbdff84799")
+	)
+	(wire
+		(pts
+			(xy 378.46 311.15) (xy 378.46 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46857ff8-7b0a-46ae-9b32-6080ab54f521")
 	)
 	(wire
 		(pts
@@ -7468,6 +7488,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 304.8) (xy 365.76 304.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82bd67f-65e9-4839-b2d6-648499fe7ef9")
+	)
+	(wire
+		(pts
 			(xy 265.43 97.79) (xy 288.29 97.79)
 		)
 		(stroke
@@ -7760,6 +7790,16 @@
 			(type default)
 		)
 		(uuid "d556d40c-cc42-47ba-b3f4-62afdda57180")
+	)
+	(wire
+		(pts
+			(xy 378.46 314.96) (xy 365.76 314.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d803bbd3-6998-47c1-b2df-4efb00d57066")
 	)
 	(wire
 		(pts
@@ -13919,103 +13959,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 365.76 309.88 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6af28dc2-de27-4475-86b9-06a928a4b8c1")
-		(property "Reference" "SW1"
-			(at 369.57 308.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 369.57 311.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "A_HDJ_Library:SW_Push_6x6x6"
-			(at 370.84 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 370.84 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 365.76 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 365.76 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 365.76 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 365.76 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55664240-a196-45a2-bcb2-d80c3831ad3e")
-		)
-		(pin "2"
-			(uuid "e36bee3a-9739-4aba-a907-aafab2835531")
-		)
-		(instances
-			(project "[DFR1142]Lite Carrier for LattePanda Mu"
-				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 350.52 259.08 180)
 		(unit 1)
@@ -19105,6 +19048,76 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
 					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 383.54 311.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0788e78-2514-4662-b3d8-d5ee9bc8f4fc")
+		(property "Reference" "J83"
+			(at 384.81 308.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 384.81 311.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 383.54 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 383.54 311.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d932ca08-0b1a-4118-a83e-49ee731730e6")
+		)
+		(pin "1"
+			(uuid "91f9a0d7-a333-4025-babd-e1a4d72d9834")
+		)
+		(instances
+			(project ""
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/b23aee49-27d1-466d-98e2-113ee657e42b"
+					(reference "J83")
 					(unit 1)
 				)
 			)
