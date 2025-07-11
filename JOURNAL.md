@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 52
+total hours: 55
 
 ## june 29th:
 4 hours
@@ -76,5 +76,12 @@ Today I basically placed most components where they should go and whats left is 
 ![image](https://github.com/user-attachments/assets/002a936a-11ac-4210-a4ea-bc44ce83f45a)
 As you can see most things are aglomerated or on the board already. I'm going to route the high speed traces before i place mostof the other components too since thats the most important thing to get right.
 
+
+
+## july 10th:
+3 hours
+went fishing today so didnt have nearly as much time but i finished placing everything where it should be and now im finishing the setting up of the board settings because in kicad, when you are making impedance matched traces and differential pairs and stuff, you set up the board to havve 4 layers etc and then you set up the nets and tell them the right sizes so you get everything right and the impedance is right. Also ive started making sure to commit my kicad files everytime i update because im scared ill mess something up later and wont be able to come back. Also cool thing i learnt is that kicad seems to also have a version control system system but im still just commiting with vs code because why not.
+
+<img width="172" height="332" alt="image" src="https://github.com/user-attachments/assets/b0378170-832f-4088-9d0b-e81b331863b7" />
 
 
