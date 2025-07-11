@@ -3084,6 +3084,12 @@
 		(uuid "76754f4f-863a-4a09-ab76-624d952e6167")
 	)
 	(junction
+		(at 245.11 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cbba5b0-e901-469f-80f0-4b914dab6e2b")
+	)
+	(junction
 		(at 297.18 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3124,6 +3130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b98bec31-b632-42e3-815d-ad700e7cfc97")
+	)
+	(junction
+		(at 245.11 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37b0020-b03a-44c0-9282-bcde3c3c9d43")
 	)
 	(junction
 		(at 331.47 228.6)
@@ -3174,12 +3186,36 @@
 		(uuid "fdeaad14-d43a-4ae0-94d3-21e7c6a0616a")
 	)
 	(no_connect
+		(at 219.71 158.75)
+		(uuid "005400f3-6426-415f-84cc-bb657e0fe276")
+	)
+	(no_connect
 		(at 355.6 125.73)
 		(uuid "02ec020e-e3d4-40c6-a89d-9bc602d29576")
 	)
 	(no_connect
+		(at 219.71 168.91)
+		(uuid "2987a656-904d-4731-b293-1268aa73c990")
+	)
+	(no_connect
+		(at 219.71 153.67)
+		(uuid "2c2c21a9-8d94-419f-bcb5-6642a62d3ca7")
+	)
+	(no_connect
 		(at 355.6 123.19)
 		(uuid "490f87ad-094d-4725-a4fa-0d7937bb05c3")
+	)
+	(no_connect
+		(at 269.24 128.27)
+		(uuid "9515123c-27b9-4d8e-8cb4-b2e13eb5f2d3")
+	)
+	(no_connect
+		(at 219.71 163.83)
+		(uuid "b57abcb1-46d6-4c10-899d-2be58c305944")
+	)
+	(no_connect
+		(at 269.24 138.43)
+		(uuid "fae1e2dc-60be-497e-8b41-7cdbc82b2e09")
 	)
 	(wire
 		(pts
@@ -3433,6 +3469,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 168.91) (xy 252.73 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff2e789-1159-4a0e-a280-b077befdf1cb")
+	)
+	(wire
+		(pts
 			(xy 354.33 102.87) (xy 355.6 102.87)
 		)
 		(stroke
@@ -3490,6 +3536,16 @@
 			(type default)
 		)
 		(uuid "5c3f81a4-a3c7-46d0-9fbc-c74bd0df2877")
+	)
+	(wire
+		(pts
+			(xy 245.11 163.83) (xy 245.11 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cba8cd0-44f4-45d4-87f1-28c2f3decdc8")
 	)
 	(wire
 		(pts
@@ -3630,6 +3686,16 @@
 			(type default)
 		)
 		(uuid "8270f5fa-035f-4c7a-be89-49145c5d9880")
+	)
+	(wire
+		(pts
+			(xy 245.11 153.67) (xy 245.11 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c29325-1b75-4de7-af74-0080702699bd")
 	)
 	(wire
 		(pts
@@ -3850,6 +3916,16 @@
 			(type default)
 		)
 		(uuid "af75a95c-47ab-4497-9ee4-b9f1f3809cbe")
+	)
+	(wire
+		(pts
+			(xy 245.11 162.56) (xy 245.11 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af958b4a-7e67-41cf-b91c-5d171be20133")
 	)
 	(wire
 		(pts
@@ -4141,6 +4217,16 @@
 		)
 		(uuid "fa7bb2eb-2f70-4db2-b949-d52e5992fd66")
 	)
+	(wire
+		(pts
+			(xy 252.73 162.56) (xy 245.11 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe30d0d2-c9d5-426b-9750-ee4250c37633")
+	)
 	(label "CON_USB3_SSTX_N"
 		(at 261.62 228.6 0)
 		(effects
@@ -4332,14 +4418,14 @@
 		(uuid "77f14f5a-104f-41b1-856c-4ffe400c61ba")
 	)
 	(label "CON_USB2_D_N"
-		(at 255.27 138.43 0)
+		(at 252.73 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8036cb18-8a56-4a63-bd42-02acef7cae23")
+		(uuid "88c0f789-9160-4b72-ab39-7eabc469e7bf")
 	)
 	(label "CON_USB4_D_N"
 		(at 274.32 265.43 0)
@@ -4360,6 +4446,16 @@
 			(justify left bottom)
 		)
 		(uuid "9f0b495a-aca8-41b9-944c-ed30dfe472b3")
+	)
+	(label "CON_USB2_D_P"
+		(at 252.73 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6bea090-0182-4f61-936c-882553bf4955")
 	)
 	(label "CON_USB4_D_P"
 		(at 274.32 267.97 0)
@@ -4430,16 +4526,6 @@
 			(justify left bottom)
 		)
 		(uuid "dcc042d7-3e1f-4b26-87d1-7bba4065105d")
-	)
-	(label "CON_USB2_D_P"
-		(at 255.27 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ddf2299e-cacf-4005-bd5f-220fb38de560")
 	)
 	(label "CON_USB3_SSRX_P"
 		(at 331.47 238.76 0)
@@ -4974,6 +5060,133 @@
 			(project "[DFR1142]Lite Carrier for LattePanda Mu"
 				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power_Protection:D3V3XA4B10LP")
+		(at 232.41 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cc1e192-2d0e-4879-bc7b-b91459b0fc84")
+		(property "Reference" "U78"
+			(at 237.49 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULC0524P"
+			(at 243.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "A_HDJ_Library:Diodes_UDFN-10_1.0x2.5mm_P0.5mm"
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf"
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SCH_Show_Footprint" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 232.41 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aad3efb7-de92-4c21-8547-9c2f38c61065")
+		)
+		(pin "6"
+			(uuid "b53de74c-0f7b-4c11-a39a-4f5042a0f766")
+		)
+		(pin "1"
+			(uuid "463f5a4a-c708-45fc-b26f-650cd6c0e282")
+		)
+		(pin "7"
+			(uuid "bd435a3f-a9d6-4390-9936-fc57f11acf6a")
+		)
+		(pin "8"
+			(uuid "a2ec87b5-b5be-448b-9def-3ae2657e4713")
+		)
+		(pin "3"
+			(uuid "235c8005-6f71-4bc2-9b0d-7be90bcd4d79")
+		)
+		(pin "5"
+			(uuid "eb739a48-fcc0-4084-af0b-aaec2c98d9e6")
+		)
+		(pin "4"
+			(uuid "1f2b7231-ee77-4760-beac-e9f01c7ddd53")
+		)
+		(pin "10"
+			(uuid "5c7c1fc5-a7f2-48d6-9142-1bd200da9f9d")
+		)
+		(pin "9"
+			(uuid "10b87a30-4f3e-44d8-b959-77e3a57effb5")
+		)
+		(instances
+			(project "[DFR1142]Lite Carrier for LattePanda Mu"
+				(path "/2a6d114a-7fd7-4207-b5f7-4ea9c34f36aa/f9aa04f2-8362-4e9f-9e54-e2b1a8ec9b0a"
+					(reference "U78")
 					(unit 1)
 				)
 			)
