@@ -4307,16 +4307,6 @@
 		)
 		(uuid "fe30d0d2-c9d5-426b-9750-ee4250c37633")
 	)
-	(label "CON_USB3_SSRX_P"
-		(at 215.9 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0087e7e7-f612-4bc5-8777-8f1eaa0f0969")
-	)
 	(label "CON_USB2_D_P"
 		(at 276.86 113.03 0)
 		(effects
@@ -4346,6 +4336,16 @@
 			(justify right bottom)
 		)
 		(uuid "115a8397-5ad1-4d2b-b2ff-116496b0ce97")
+	)
+	(label "CON_USB3_SSRX_P"
+		(at 215.9 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11730607-def2-40fa-99a5-dc0bb7e2f4bf")
 	)
 	(label "CON_USB4_D_P"
 		(at 207.01 231.14 180)
@@ -4407,16 +4407,6 @@
 		)
 		(uuid "3d12553a-9f4c-44f3-964f-cc312dadb053")
 	)
-	(label "CON_USB3_SSTX_N"
-		(at 261.62 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4338cb8a-0f61-4872-a521-8a1d1d8a9149")
-	)
 	(label "CON_USB4_SSRX_N"
 		(at 287.02 228.6 0)
 		(effects
@@ -4426,16 +4416,6 @@
 			(justify left bottom)
 		)
 		(uuid "4dd1ef10-47e9-4941-89bb-4c725a54a5ac")
-	)
-	(label "CON_USB3_SSTX_P"
-		(at 261.62 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "595738fc-f1ac-49db-b946-58caf088869f")
 	)
 	(label "CON_USB4_SSRX_P"
 		(at 274.32 275.59 0)
@@ -4468,16 +4448,6 @@
 		(uuid "652ca529-5b9f-4ac4-bc06-099a284cd420")
 	)
 	(label "CON_USB3_SSRX_N"
-		(at 215.9 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b0c6956-f9a4-4617-a078-cc1977ce7b0d")
-	)
-	(label "CON_USB3_SSRX_N"
 		(at 274.32 194.31 0)
 		(effects
 			(font
@@ -4486,6 +4456,16 @@
 			(justify left bottom)
 		)
 		(uuid "6e7a8de1-5d6e-4c5d-8fd7-c9c2272eb715")
+	)
+	(label "CON_USB3_SSRX_N"
+		(at 215.9 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "721c06e4-e503-44c1-9cd5-7492c608822e")
 	)
 	(label "CON_USB4_SSTX_P"
 		(at 274.32 283.21 0)
@@ -4526,6 +4506,16 @@
 			(justify left bottom)
 		)
 		(uuid "89415267-993b-4e1e-85ab-0199d71d3e42")
+	)
+	(label "CON_USB3_SSTX_N"
+		(at 261.62 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a58fc6e-3125-4767-8e7f-d032206b6229")
 	)
 	(label "CON_USB3_SSTX_P"
 		(at 274.32 204.47 0)
@@ -4616,6 +4606,16 @@
 			(justify left bottom)
 		)
 		(uuid "dcc042d7-3e1f-4b26-87d1-7bba4065105d")
+	)
+	(label "CON_USB3_SSTX_P"
+		(at 261.62 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f38908f7-3391-4932-8fc4-2687039db2df")
 	)
 	(label "CON_USB1_D_N"
 		(at 214.63 138.43 0)
