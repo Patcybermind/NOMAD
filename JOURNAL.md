@@ -88,3 +88,7 @@ went fishing today so didnt have nearly as much time but i finished placing ever
 ## july 10th:
 
 <img width="1197" height="661" alt="image" src="https://github.com/user-attachments/assets/e50746e6-dfc6-4f02-840a-a35be9396b7c" />
+
+## july 17th:
+6 hours:
+
