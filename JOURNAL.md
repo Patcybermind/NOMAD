@@ -96,3 +96,8 @@ hdmi to that specific model controllerr since this way i can be 90% percent sure
 
 
 image is mostly for myself <img width="1536" height="785" alt="image" src="https://github.com/user-attachments/assets/47f5c568-20af-465f-932e-555c8695c666" />
+
+
+<img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c5e485e2-f09e-472f-9b2f-4c8c7460faff" />
+
+routing i think is looking cleaner
