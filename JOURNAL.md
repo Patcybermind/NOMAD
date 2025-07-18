@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 55
+total hours: 63
 
 ## june 29th:
 4 hours
@@ -86,5 +86,13 @@ went fishing today so didnt have nearly as much time but i finished placing ever
 
 
 ## july 10th:
-
+2 hours:
 <img width="1197" height="661" alt="image" src="https://github.com/user-attachments/assets/e50746e6-dfc6-4f02-840a-a35be9396b7c" />
+
+## july 17th:
+6 hours:
+I did more research and i think ive finally settled on the display im going to use and how im going to use it, at first I was planing on using a 40 pin edp display that fit the mu but they i very expensive and the one specifically for the mu is even more expensive. The worst part is that other than the one for the mu there is no guarantee they are compatible. Hence why I've decided to go with a cheap laptop display with 30 pin edp and a 
+hdmi to that specific model controllerr since this way i can be 90% percent sure it will work. I also restarted the pcb routing yet again. I've decided to go with a much larger board so that the mu is not half hanging off even if it might be like 10 $ more expensive also this way i have more space and can be more sure that the components will work as planned. The old routing was very bad now its looking a bit better
+
+
+image is mostly for myself <img width="1536" height="785" alt="image" src="https://github.com/user-attachments/assets/47f5c568-20af-465f-932e-555c8695c666" />
