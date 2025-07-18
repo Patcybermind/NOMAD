@@ -209,12 +209,12 @@
           "spacing": 0.6
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 60,
+          "corner_radius_percentage": 50,
           "corner_style": 0,
-          "max_amplitude": 0.25,
+          "max_amplitude": 0.1,
           "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.1
         },
         "single_track_defaults": {
           "corner_radius_percentage": 100,
