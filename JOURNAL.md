@@ -5,7 +5,7 @@ description: "an open source semi modular laptop"
 created_at: "2024-06-29"
 ---
 
-total hours: 63
+total hours: 69
 
 ## june 29th:
 4 hours
@@ -101,3 +101,10 @@ image is mostly for myself <img width="1536" height="785" alt="image" src="https
 <img width="581" height="334" alt="image" src="https://github.com/user-attachments/assets/c5e485e2-f09e-472f-9b2f-4c8c7460faff" />
 
 routing i think is looking cleaner
+
+## july 18th
+6 hours: 
+Im writing this from my phone because i fell asleep so i wont have images till i get back home.
+
+
+x
